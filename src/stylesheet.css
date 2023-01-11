@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     background-color: rgb(44, 43, 43);
-    border-image:linear-gradient( to right,rgba(5,177,220,0.5),rgba(230,195,41,0.5) );
 }
 
 .sidenav {
@@ -39,4 +38,10 @@ body {
     top: 0;
     left: 0;
     background-color: rgb(7, 7, 7);
+}
+
+.main {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
 }
