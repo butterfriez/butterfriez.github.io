@@ -27,6 +27,7 @@ body {
 
 .sidenav a:hover {
     color: white;
+    transition: 0.5s;
 }
 
 .topbar {
