@@ -1,23 +1,22 @@
 body {
+    background-color: rgba(7, 16, 41, 0.877);
     font-family: sans-serif;
-    background-color: rgb(44, 43, 43);
 }
 
 .sidenav {
     height: 100%;
     width: 170px;
     position: fixed;
-    z-index: 1;
-    top: 0;
+    z-index: 2;
     left: 0;
+    float: left;
     background-color: rgb(7, 7, 7);
     overflow-x: hidden;
     padding-top: 20px;
 }
 
 .sidenav a {
-    float: left;
-    text-align: center;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: lightgray;
@@ -41,7 +40,21 @@ body {
 }
 
 .main {
+    position: fixed;
     background-color: white;
-    border-radius: 20px;
-    margin: auto;
+    margin-left: 180px;
+    translate: -10px 30vh;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 70px 0;
+    box-shadow: 5px 5px 5px black;
+    z-index: 3;
+}
+
+.main:hover {
+    box-shadow: 10px 10px 10px black;
+    transition: 0.3s;
+    transform: scale(1.009);
 }
