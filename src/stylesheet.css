@@ -68,7 +68,7 @@ body {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 800px ) {
     .sidenav {
         height: 100%;
         width: 100;
@@ -80,6 +80,8 @@ body {
         overflow-x: hidden;
         padding-top: 20px;
     }
+
+    .main {font-size: 12px;}
 }
 
 @media screen and (max-width: 1280) {
@@ -94,5 +96,7 @@ body {
         overflow-x: hidden;
         padding-top: 20px;
     }
+
+    .main {font-size: 14px;}
     
 }
