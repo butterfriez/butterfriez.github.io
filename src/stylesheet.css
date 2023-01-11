@@ -22,3 +22,13 @@
 .sidenav a:hover {
     color: white;
 }
+
+.topbar {
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
