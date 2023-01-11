@@ -63,5 +63,5 @@ body {
 .main:hover {
     box-shadow: 10px 10px 10px black;
     transition: 0.3s;
-    transform: scale(1.009);
+    transform: scale(1.1);
 }
