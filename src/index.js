@@ -1,0 +1,3 @@
+document.addEventListener("keypress", (e) => {
+    
+})

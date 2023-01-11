@@ -1,11 +1,13 @@
 body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,21,2,1) 15%, rgba(2,50,50,1) 38%, rgba(96,7,93,1) 73%, rgba(2,125,150,1) 100%);
     font-family: sans-serif;
-    animation: gradient 15s;
+    animation: background-animation 2s infinite;
+    animation-timing-function: linear;
+    background: linear-gradient(60deg, rgb(2,50,50,1) 7%, rgba(2,125,150,1) 29%, rgba(2,0,36,1) 59%, rgba(44,21,2,1) 75%, rgba(2,50,50,1) 93%);    background-size: 200% 100%;
 }
 
-@keyframes gradient {
-    
+@keyframes background-animation {
+    0% {background-position: 10% 0%}
+    100% {background-position: 120% 0%}
 }
 
 .sidenav {
