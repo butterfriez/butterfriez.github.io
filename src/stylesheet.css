@@ -43,7 +43,7 @@ body {
     position: fixed;
     background-color: white;
     margin-left: 180px;
-    translate: -10px 30vh;
+    translate: 40% 10vh;
     font-size: 25px;
     border-radius: 10px;
     text-align: center;
@@ -51,6 +51,8 @@ body {
     padding: 70px 0;
     box-shadow: 5px 5px 5px black;
     z-index: 3;
+    width: 50vmax;
+    height: 40vmin;
 }
 
 .main:hover {
