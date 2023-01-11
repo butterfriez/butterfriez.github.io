@@ -1,6 +1,11 @@
 body {
-    background-color: rgba(7, 16, 41, 0.877);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,21,2,1) 15%, rgba(2,50,50,1) 38%, rgba(96,7,93,1) 73%, rgba(2,125,150,1) 100%);
     font-family: sans-serif;
+    animation: gradient 15s;
+}
+
+@keyframes gradient {
+    
 }
 
 .sidenav {
