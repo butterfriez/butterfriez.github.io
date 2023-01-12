@@ -10,10 +10,12 @@
     <script src="src/index.js"></script>
     
 </head>
-<body>
+<body id="body">
     <nav id="sidenav1" class="sidenav">
-        <a href="index">Home</a>
-        <a href="contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <p1>Background Duration</p1>
+        <input type="range" min="0.1" max="5" value="3" oninput="document.body.style.animationDuration = `${this.value}s`" class="timeSlider">
     </nav>
     <div class="topbar"></div>
 
@@ -21,6 +23,5 @@
         My name is butther, or butter. The current languages I know are: HTML, CSS, Javascript, some Java, Kotlin, some Lua, and somewhat know Python. I live in California and am 14 years old. My current favorite games are World of Warships, Roblox, and Minecraft.
         Some of the projects that I am working on is this portfolio, some Forge and ChatTriggers mods for Minecraft, a tower defense type game on Roblox, and a Discord Bot for a IRL-trading Hypixel Skyblock discord Server.
     </div>
-    <div class="gradientanimation"></div>
 </body>
 </html>

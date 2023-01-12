@@ -11,9 +11,11 @@
     
 </head>
 <body>
-    <nav id="sidenav" class="sidenav">
-        <a href="index">Home</a>
-        <a href="contact">Contact</a>
+    <nav id="sidenav1" class="sidenav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <p1>Background Duration</p1>
+        <input type="range" min="0.1" max="5" value="3" oninput="document.body.style.animationDuration = `${this.value}s`" class="timeSlider">
     </nav>
     <div class="topbar"></div>
 
