@@ -1,13 +1,15 @@
 body {
     font-family: sans-serif;
-    animation: background-animation 2s infinite;
+    animation: background-animation 3s infinite;
     animation-timing-function: linear;
-    background: linear-gradient(60deg, rgb(2,50,50,1) 7%, rgba(2,125,150,1) 29%, rgba(2,0,36,1) 59%, rgba(44,21,2,1) 75%, rgba(2,50,50,1) 93%);    background-size: 200% 100%;
+    background: linear-gradient(45deg, rgba(174, 0, 255) 0%, rgba(255, 0, 0, 1) 15%, rgba(255, 255, 0, 1) 25%, rgba(0, 255, 0, 1) 40%, rgba(0, 255, 255, 1) 60%, rgba(0, 0, 255, 1) 80%, rgb(174, 0, 255));
+    background-size: 200% 100%;
+
 }
 
 @keyframes background-animation {
-    0% {background-position: 10% 0%}
-    100% {background-position: 120% 0%}
+    0% {background-position: 0% 0%}
+    100% {background-position: 200% 0%}
 }
 
 .sidenav {
@@ -60,28 +62,30 @@ body {
     z-index: 3;
     width: 50vmax;
     height: 40vmin;
+    transition: 0.3s;
 }
 
 .main:hover {
-    box-shadow: 10px 10px 10px black;
-    transition: 0.3s;
+    box-shadow: 10px 10px 10px lightslategray;
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 390px ) {
     .sidenav {
-        height: 100%;
-        width: 100;
+        height: 20px;
+        width: 100%;
         position: fixed;
         z-index: 2;
         left: 0;
-        float: left;
         background-color: rgb(7, 7, 7);
         overflow-x: hidden;
-        padding-top: 20px;
+        padding: auto;
     }
 
-    .main {font-size: 12px;}
+    .main {
+        font-size: 12px;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 1280) {
