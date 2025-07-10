@@ -1,0 +1,1 @@
+import{c as e,t,P as o}from"./index-CSaVdxT6.js";var n=t('<h1 class="text-2xl font-bold">404: Not Found'),a=t("<p class=mt-4>It's gone 😞");function l(){return e(o,{get children(){return[n(),a()]}})}export{l as default};
